@@ -1,0 +1,10 @@
+{
+  "name": "meridian",
+  "version": "1.0.0",
+  "description": "Meridian — Personal Operating System",
+  "scripts": {
+    "dev": "python3 -m http.server 8080 --directory public",
+    "start": "npx serve public -p 8080"
+  },
+  "private": true
+}
